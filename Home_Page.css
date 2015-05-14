@@ -50,7 +50,7 @@ table {
 
 
 
-div {
+{
   border: 1px solid black;
 }
 
@@ -118,7 +118,7 @@ div {
 .site-summary {
   float:  left;
   height: 300px;
-  margin-top: 50px;
+  margin-top: 70px;
   margin-left: 30px;
   width: 650px;
 }
@@ -132,18 +132,24 @@ div {
 .site-summary-list li{
   font-size: 18px;
   font-weight: bold;
-  margin: 10px 0px;
+  margin: 20px 0px;
 }
 
 .sign-summary{
   height: 300px;
   float: left;
   width: 650px;
+  margin-top: 50px;
+}
+
+.sign-summary form{
+  margin-left: 20px;
 }
 
 .sign-summary h1{
   font-size: 50px;
   font-weight: bold;
+  margin-left: 20px;
 }
 
 .signup-width{
@@ -154,12 +160,15 @@ div {
   display: inline-block;
   border: 1px solid #AAAAC6;
   margin: 10px 0px;
+  width: 150px;
 }
 
 .signup-lname {
   display: inline-block;
   border: 1px solid #AAAAC6;
   margin: 10px 0px;
+  margin-left: 22px;
+  width: 150px;
 }
 
 .signup-email {
@@ -181,10 +190,18 @@ div {
   margin-bottom: 5px;
 }
 
+.birthday .birthday-drdwn{
+  border: 1px solid black;
+}
+
 .sign-summary .birthday{
   display: block;
 }
 
 .sign-summary .gender{
-  display: inline-block;
+  display: block;
+}
+
+.signup-btn {
+  width: 100%;
 }
