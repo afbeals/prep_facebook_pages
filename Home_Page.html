@@ -12,48 +12,54 @@
       <form>
         <div class="form-email">
           <h4>Email</h4>
-          <input type="text" class="sign-firstname" placeholder="example@domain.com">
+          <input type="text" class="signin-firstname" placeholder="example@domain.com">
         </div>
         <div class="form-password">
           <h4>Password</h4>
-          <input type="text" class="sign-password" placeholder="*****">
+          <input type="text" class="signin-password" placeholder="*****">
         </div>
-          <input type="submit" class="sign-login" value="Log In">
+          <input type="submit" class="signin-login" value="Log In">
       </form>
     </div>
   </div>
   <section>
-    <h1></h1>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+    <div class="site-summary">
+      <h1>Connect with all your friends!</h1>
+      <ul class="site-summary-list">
+        <li>See photos and updates in your news feed.</li>
+        <li>Post your status for the world to see from your profile</li>
+        <li>Get in touch with your friends by "friending" them</li>
+        <li>Like things because you're a positive person!</li>
+      </ul>
+    </div>
   </section>
-  <section>
-    <h1></h1>
+  <section class="sign-summary">
+    <h1>Sign Up</h1>
     <form>
-        <input type= class= placeholder=>
-        <input type= class= placeholder=>
-        <input type= class= placeholder=>
-        <input type= class= placeholder=>
-        <input type= class= placeholder=>
-        <h3></h3>
+        <input type="text" class="signup-fname" placeholder="First Name">
+        <input type="text" class="signup-lname" placeholder="Last Name">
+        <input type="text" class="signup-email" placeholder="Your Email">
+        <input type="text" class="singup-password" placeholder="Your New Password">
+        <input type="text" class="signup-password" placeholder="Confirm Your Password">
+        <h3>Birthday</h3>
         <select name="month">
-          <option value="Friday">Friday</option>
-          <option value="Saturday">Saturday</option>
+          <option value="Month" selected>Month</option>
+          <option value="Janurary">Janurary</option>
+          <option value="February">February</option>
         </select>
         <select name="day">
-          <option value="Friday">Friday</option>
-          <option value="Saturday">Saturday</option>
+          <option value="Day" selected>Day</option>
+          <option value="01">01</option>
+          <option value="02">02</option>
         </select>
         <select name="year">
-          <option value="Friday">Friday</option>
-          <option value="Saturday">Saturday</option>
+          <option value="Year" selected>Year</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
         </select>
         <input type="radio" name="gender" value="Female"> Female
         <input type="radio" name="gender" value="Male"> Male
-        <input type= class= value=>
+        <input type="submit" class="signup-btn" value="Sign Up!">
       </form>
   </section>
 </body>
