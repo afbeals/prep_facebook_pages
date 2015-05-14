@@ -9,7 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
 }
-ol, ul {
+ol, {
   list-style: none;
 }
 blockquote, q {
@@ -47,6 +47,144 @@ table {
   border-spacing: 0;
 }
 
+
+
+
 div {
   border: 1px solid black;
+}
+
+.top-nav {
+  height: 70px;
+  background-color: #3F75B8;
+  border-bottom: 1px solid black;
+}
+
+.top-nav .logo {
+  font-size: 45px;
+  vertical-align: middle;
+  display: inline-block;
+  color: #FFF;
+  margin-left: 20px;
+  float: left;
+  margin-top: 15px;
+}
+
+.user {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+  float: right;
+  margin-top: 15px;
+  padding-right: 5px;
+  height: 40px;
+}
+
+.form-email {
+  display: inline-block;
+  color: #FFF;
+  margin: 0px 10px;
+}
+
+.signin-firstname {
+  margin-top: 5px;
+  border: 2px solid black;
+}
+
+.form-password {
+  display: inline-block;
+  color: #FFF;
+  margin: 0px 10px;
+  
+}
+
+.signin-password{
+  margin-top: 5px;
+  border: 2px solid black;
+}
+
+.signin-login{
+  vertical-align: middle;
+  display: inline-block;
+  height: 100%;
+}
+
+.signin-btn {
+  background-color: #8CACD4;
+  vertical-align: middle;
+  border: 2px solid black;
+}
+
+.site-summary {
+  float:  left;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 650px;
+}
+
+.site-summary h1{
+  font-size: 38px;
+  font-weight: bold;
+}
+
+
+.site-summary-list li{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.sign-summary{
+  height: 300px;
+  float: left;
+  width: 650px;
+}
+
+.sign-summary h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.signup-width{
+  width: 346px;
+}
+
+.signup-fname {
+  display: inline-block;
+  border: 1px solid #AAAAC6;
+  margin: 10px 0px;
+}
+
+.signup-lname {
+  display: inline-block;
+  border: 1px solid #AAAAC6;
+  margin: 10px 0px;
+}
+
+.signup-email {
+  display: block;
+  border: 1px solid #AAAAC6;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.signup-password{
+  display: block;
+  border: 1px solid #AAAAC6;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.signup-width h3{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sign-summary .birthday{
+  display: block;
+}
+
+.sign-summary .gender{
+  display: inline-block;
 }
