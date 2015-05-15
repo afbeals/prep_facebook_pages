@@ -124,6 +124,11 @@ body{
   background-color: gray;
 }
 
+.user-background img{
+  width: 100%;
+  height: 100%;
+}
+
 .user-name {
   font-size: 18px;
   position: absolute;
@@ -147,9 +152,9 @@ body{
 .user-img img{
   position: absolute;
   height: 100px;
-  width: 80px;
+  width: 100px;
   bottom: 25px;
-  left: 20px;
+  left: 10px;
 }
 .nav .nav-ele{
   float: left;
@@ -157,6 +162,16 @@ body{
   height: 99%;
   text-align: center;
   border: 1px solid black;
+  line-height: 50px;
+}
+
+.nav-ele p{
+  font-weight: bold;
+}
+
+.nav-ele span{
+  font-weight: none;
+  color: gray;
 }
 
 .nav .edit-profile{
@@ -167,6 +182,7 @@ body{
   text-decoration: underline;
   color: blue;
   border: 1px solid black;
+  line-height: 50px;
 }
 
 .lower-section {
@@ -177,7 +193,7 @@ body{
 }
 
 .header {
-  background-color: gray;
+  background-color: #C0C0CA;
   height: 30px;
   width: 100%;
 }
@@ -199,10 +215,9 @@ body{
 }
 
 .header .cta-edit-btn{
-  background-color: blue;
+  background-color: #3F75B8;
   color: #FFF;
   border: 1px solid black;
-  text-decoration: underline;
   text-align: center;
 }
 
@@ -235,6 +250,7 @@ body{
 
 .user-quote div {
   padding-top: 30px;
+  padding-left: 15px;
 }
 
 .user-quote h3{
@@ -244,7 +260,7 @@ body{
 }
 
 .user-quote p{
-  font-weight: bold;
+  
 }
 
 .contact-info {
