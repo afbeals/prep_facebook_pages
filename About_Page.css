@@ -49,11 +49,18 @@ table {
 
 /*Top Navigation Bar*/
 
-{
+div {
   border: 1px solid black;
 }
 
+body{
+  width: 1200px;
+  display: block;
+  margin: 0px auto;
+}
+
 .top-nav {
+  width: 100%;
   height: 70px;
   background-color: #3F75B8;
   border-bottom: 1px solid black;
@@ -102,4 +109,88 @@ table {
 }
 
 /*User Profile Navigator*/
+
+.user-nav {
+  width: 100%;
+}
+
+.user-background {
+  width: 100%;
+  height: 300px;
+  background-color: gray;
+}
+
+.user-name {
+  font-size: 18px;
+  position: absolute;
+  display: inline-block;
+}
+
+.user-nav .nav{
+  width: 100%;
+  height: 60px;
+}
+
+.nav .user-img{
+  float: left;
+  width: 170px;
+  height: 100%;
+  text-align: center;
+  border: 1px solid black;
+  position: relative;
+}
+
+.user-img img{
+  position: absolute;
+  height: 120px;
+  width: 100px;
+  bottom: 25px;
+  left: 40px;
+}
+.nav .nav-ele{
+  float: left;
+  width: 170px;
+  height: 99%;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.nav .edit-profile{
+  float: right;
+  width: 338px;
+  height: 99%;
+  text-align: right;
+  text-decoration: underline;
+  color: blue;
+  border: 1px solid black;
+}
+
+.header {
+  background-color: gray;
+  height: 30px;
+  width: 100%;
+}
+
+.header p{
+  display: inline-block;
+  width: 80%;
+  margin-left: 65px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.header .cta-edit-profile {
+  display: inline-block;
+  float: right; 
+}
+
+.header .cta-edit-btn{
+  background-color: blue;
+  color: #FFF;
+  border: 1px solid black;
+  text-decoration: underline;
+  text-align: center;
+}
 
