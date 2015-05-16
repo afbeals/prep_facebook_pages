@@ -114,7 +114,9 @@ body{
 
 .site-container{
   width: 800px;
+  height: 2000px;
   margin: 0px auto;
+  border: 2px solid black;
 }
 
 
@@ -123,7 +125,9 @@ body{
 .activity-feed-container{
   display: inline-block;
   width: 35%;
-  border: 2px solid black;
+  height: 100%;
+  border-right: 2px solid black;
+  vertical-align: top;
 }
 
 .activity-container .user {
@@ -200,8 +204,9 @@ body{
   color: gray;
 }
 
-.activity-container .friends-link a{
-  text-align: center;
+.activity-feed-container .friends-link{
+text-align: center;
+font-size: 20px;
 }
 
 /*Right Comment Feed*/
@@ -209,8 +214,7 @@ body{
 .post-container {
   display: inline-block;
   width: 60%;
-  border: 2px solid black;
-  height: 2000px;
+  height: 100%;
 }
 
 .create-post{
@@ -224,19 +228,19 @@ body{
 .create-post .title{
   font-size: 18px;
   text-align: center;
-  background-color: gray;
+  background-color: #C0C0CA;
   line-height: 25px;
 }
 
 .create-post .post-form{
   height: 85px;
-
 }
 
 .create-post .form-entry{
-  width: 85%;
+  width: 95%;
   height: 100%;
-  margin: 10px auto;
+  margin: 10px 10px;
+  top: -5px;
 }
 
 .create-post .form-cta{
@@ -284,9 +288,9 @@ body{
 .post-1 .post-link {
   border-top: 1px solid black;
   margin-top: 10px;
-  background-color: gray;
+  background-color: #C0C0CA;
   height: 35px;
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .post-1 a{
@@ -332,7 +336,7 @@ body{
 .post-2 .post-link {
   border-top: 1px solid black;
   margin-top: 10px;
-  background-color: gray;
+  background-color: #C0C0CA;
   height: 35px;
   padding-top: 15px;
 }
@@ -341,6 +345,7 @@ body{
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 5px;
+
 }
 
 .post-3 {
@@ -353,13 +358,28 @@ body{
 
 .post-3 .user-img {
   display: inline-block;
+  vertical-align: top;
   height: 55px;
   width: 55px;
 }
 
+.post-3 .user-img-hr{
+  display: inline-block;
+  vertical-align: top;
+  height: 55px;
+  width: 55px;
+  margin: 20px 0px 25px 20px;
+}
+
+.post-3 .user .user-img-hr img{
+  vertical-align: top;
+  height: 55px;
+  width: 55px;
+}
 
 .post-3 .user-name {
   display: inline-block;
+  vertical-align: bottom;
   margin-left: 3px;
   margin-bottom: 25px;
 }
@@ -368,6 +388,11 @@ body{
   color: blue;
   text-decoration: underline;
   font-size: 14px;
+  margin-left: 0px;
+}
+
+.post-3 .user-name a{
+  margin-left: 0px;
 }
 
 .post-3 .user-name h5{
@@ -382,9 +407,10 @@ body{
 .post-3 .post-link {
   border-top: 1px solid black;
   margin-top: 10px;
-  background-color: gray;
+  background-color: #C0C0CA;
   height: 35px;
   padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .post-3 a{
@@ -393,10 +419,28 @@ body{
   margin-top: 5px;
 }
 
+.post-3-unlike{
+  display: inline-block;
+  float: left;
+  line-height: -0px;
+}
+
+.post-3-delete{
+  display: inline-block;
+  float: right;
+  line-height: -0px;
+}
+
+.post-3-similar{
+  margin-left: 5px;
+}
+
 .post-comments {
   display: block;
-  margin-left: 5px;
-  background-color: gray;
+  background-color: #C0C0CA;
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  height: 65.4%;
 }
 
 .post-comments .user-img {
@@ -409,21 +453,35 @@ body{
 
 .post-comments .user-post{
   display: inline-block;
-
   margin-bottom: 25px;
   width: 340px;
 }
 
+.post-comments .user-post .post-date1{
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.post-comments .user-post .post-date2{
+  display: inline-block;
+  font-size: 16px;
+}
+
+
 .post-comments .post-form-box{
   width: 95%;
   margin-left: 10px;
+  margin-bottom: 10px;
   height: 100px;
+  border: 1px solid black;
 }
 
 .post-comments .post-form-btn{
   float: right;
   color: #FFF;
-  background-color: blue;
+  background-color: #3F75B8;
 }
 
 
